@@ -1,6 +1,6 @@
 # Todo List with React
 
-- To-do List created with react to explore the features of react!
+- To-do List created with react to explore the features of react comprehensively!
 
 # Getting Started with Create React App
 
