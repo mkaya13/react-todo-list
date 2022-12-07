@@ -1,5 +1,5 @@
 {
-  "name": "my-first-react-app",
+  "name": "react-todo-list",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://mkaya13.github.io/react-todo-list",
@@ -16,12 +16,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "WATCHPACK_POLLING=true react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
