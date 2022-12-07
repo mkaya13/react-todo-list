@@ -3,12 +3,12 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import TodoContainer from "./components/TodoContainer";
 import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <TodoContainer />
     </Router>
   </React.StrictMode>
