@@ -1,20 +1,20 @@
-import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
-import "./App.css";
-import { MdClose } from "react-icons/md";
-import { FiMenu } from "react-icons/fi";
+import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
+import './App.css';
+import { MdClose } from 'react-icons/md';
+import { FiMenu } from 'react-icons/fi';
 
 const Navbar = () => {
   const links = [
     {
       id: 1,
-      path: "/",
-      text: "Home",
+      path: '/',
+      text: 'Home',
     },
     {
       id: 2,
-      path: "/about",
-      text: "About",
+      path: '/about',
+      text: 'About',
     },
   ];
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -28,27 +28,25 @@ const Navbar = () => {
   };
   return (
     <nav className="navBar">
-      <button onClick={handleToggle}>
+      <button type="button" onClick={handleToggle}>
         {navbarOpen ? (
-          <MdClose style={{ color: "#fff", width: "40px", height: "40px" }} />
+          <MdClose style={{ color: '#fff', width: '40px', height: '40px' }} />
         ) : (
-          <FiMenu style={{ color: "#7b7b7b", width: "40px", height: "40px" }} />
+          <FiMenu style={{ color: '#7b7b7b', width: '40px', height: '40px' }} />
         )}
       </button>
-      <ul className={`menuNav ${navbarOpen ? " showMenu" : ""}`}>
-        {links.map((link) => {
-          return (
-            <li key={link.id}>
-              <NavLink
-                to={link.path}
-                className="active-link"
-                onClick={() => closeMenu()}
-              >
-                {link.text}
-              </NavLink>
-            </li>
-          );
-        })}
+      <ul className={`menuNav ${navbarOpen ? ' showMenu' : ''}`}>
+        {links.map((link) => (
+          <li key={link.id}>
+            <NavLink
+              to={link.path}
+              className="active-link"
+              onClick={() => closeMenu()}
+            >
+              {link.text}
+            </NavLink>
+          </li>
+        ))}
       </ul>
     </nav>
   );
