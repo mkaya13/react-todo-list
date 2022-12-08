@@ -1,74 +1,96 @@
-# Todo List with React
+![Microverse](https://img.shields.io/badge/Microverse-blueviolet) ![HTML](https://img.shields.io/badge/-HTML-orange) ![CSS](https://img.shields.io/badge/-CSS-blue) ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow) ![Webpack](https://img.shields.io/badge/-Webpack-green) ![React.js](https://img.shields.io/badge/-React.js-black)
 
-- To-do List created with react to explore the features of react!
+# React-ToDo-App
 
-# Getting Started with Create React App
+To-do list app created with react library with react class and functional components and react lifecycles.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🛠 Built With
 
-## Available Scripts
+<a name="built-with">![HTML](https://img.shields.io/badge/-HTML-orange) <br> ![CSS](https://img.shields.io/badge/-CSS-blue) <br> ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow) <br> ![Webpack](https://img.shields.io/badge/-Webpack-green) <br> ![React.js](https://img.shields.io/badge/-Rect.js-black)</a>
 
-In the project directory, you can run:
+### Tech Stack <a name="tech-stack"></a>
 
-### `npm start`
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript
+">React</a></li>
+  </ul>
+</details>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- Features -->
+<br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Key Features <a name="key-features"></a>
 
-### `npm test`
+- **Single-Page-Application**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- LIVE DEMO -->
 
-### `npm run build`
+## 🚀 Live Demo <a name="live-demo"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Live Demo Link](https://mkaya13.github.io/react-todo-list/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- GETTING STARTED -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 💻 Getting Started <a name="getting-started"></a>
 
-### `npm run eject`
+To get a local copy up and running follow these simple steps.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Prerequisites
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- VIsual Studio Code.
+- A Web Browser (preferably Google Chrome)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Setup
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Clone the GitHub Repository
+- run this commands in your terminal:
+  - `npm install`
+  - `npm run build`
+  - `npm start`
 
-## Learn More
+### Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+After running `npm start` the website will be opened automatically on your default browser.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- AUTHORS -->
 
-### Code Splitting
+## 👤 Author <a name="authors"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+👤 Mert Kaya
 
-### Analyzing the Bundle Size
+- GitHub: [@mkaya](https://github.com/mkaya13)
+- Twitter: [@mkaya133](https://twitter.com/mkaya133)
+- LinkedIn: [@mert-kaya](https://www.linkedin.com/in/mert-kaya-0732b717b/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<!-- CONTRIBUTING -->
 
-### Making a Progressive Web App
+## 🤝 Contributing <a name="contributing"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contributions, issues, and feature requests are welcome!
 
-### Advanced Configuration
+Feel free to check the [issues page](../../issues/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<!-- SUPPORT -->
 
-### Deployment
+## ⭐️ Show your support <a name="support"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Give a ⭐️ if you like this project!
 
-### `npm run build` fails to minify
+<!-- ACKNOWLEDGEMENTS -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- Thanks to the Microverse team for the great curriculum.
+- Thanks to the Code Reviewer(s) for the insightful feedback.
+- A great thanks to My coding partner(s), morning session team, and standup team for their contributions.
+- Hat tip to anyone whose code was used.
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](https://github.com/Mujeeb4582/Math_Megicians/blob/React-Setup/Licence) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
